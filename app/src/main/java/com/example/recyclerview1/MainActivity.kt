@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         rvAdapter = RvAdapter(Constant.getData(),this)
 
         binding.rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
-//        binding.rv.layoutManager = GridLayoutManager(this,2)
+//        binding.rv.layoutManager = GridLayoutManager(this,3)
 //        binding.rv.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
         binding.rv.adapter = rvAdapter
     }

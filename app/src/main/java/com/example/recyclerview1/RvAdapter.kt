@@ -35,7 +35,7 @@ class RvAdapter(var dataList : ArrayList<RvModel>,var context : Context): Recycl
     inner class MyViewHolder(var binding : RvItemBinding): RecyclerView.ViewHolder(binding.root)
 
     fun anim(view : View){
-        var animation = AlphaAnimation(0.0f,1.0f)
+        var animation = AlphaAnimation(0.0f,1.1f)
         animation.duration = 3000
         view.startAnimation(animation)
     }
